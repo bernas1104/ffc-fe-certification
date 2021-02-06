@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from '@material-ui/core';
 
 import { Container, Challenges } from './styles';
 import { useFreeCodeCamp } from '../../hooks/freeCodeCampHook';
@@ -17,11 +17,21 @@ const Home: React.FC = () => {
       <h2>Front-End Challenges</h2>
 
       <Challenges>
-        <Link to="random-quote-machine">Random Quote Machine</Link>
-        <button type="button">Markdown Previewer</button>
-        <button type="button">Drum Machine</button>
-        <button type="button">JavaScript Calculator</button>
-        <button type="button">25 + 5 Clock</button>
+        <Button variant="outlined" color="primary" href="/random-quote-machine">
+          Random Quote Machine
+        </Button>
+        <Button variant="outlined" color="primary" href="#" type="button">
+          Markdown Previewer
+        </Button>
+        <Button variant="outlined" color="primary" href="#" type="button">
+          Drum Machine
+        </Button>
+        <Button variant="outlined" color="primary" href="#" type="button">
+          JavaScript Calculator
+        </Button>
+        <Button variant="outlined" color="primary" href="#" type="button">
+          25 + 5 Clock
+        </Button>
       </Challenges>
     </Container>
   );
