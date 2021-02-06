@@ -7,13 +7,16 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #f5f5f5;
 
   h1 {
+    font-size: 40px;
     margin-bottom: 10px;
   }
 
   h2 {
-    margin-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 40px;
   }
 `;
 
