@@ -20,7 +20,12 @@ const Home: React.FC = () => {
         <Button variant="outlined" color="primary" href="/random-quote-machine">
           Random Quote Machine
         </Button>
-        <Button variant="outlined" color="primary" href="#" type="button">
+        <Button
+          variant="outlined"
+          color="primary"
+          href="/markdown-previewer"
+          type="button"
+        >
           Markdown Previewer
         </Button>
         <Button variant="outlined" color="primary" href="#" type="button">

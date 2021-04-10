@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const QuoteBox = styled.div`
   padding: 40px;
   width: 700px;
-  height: 500px;
+  height: auto;
   border-radius: 6px;
   background-color: #fff;
   border: 1px solid #e5e5e5;

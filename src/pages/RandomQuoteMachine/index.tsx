@@ -65,7 +65,12 @@ const RandomQuoteMachine: React.FC = () => {
           >
             New Quote
           </Button>
-          <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
+          <a
+            id="tweet-quote"
+            href="https://twitter.com/intent/tweet"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faRetweet} />
             Tweet
           </a>
